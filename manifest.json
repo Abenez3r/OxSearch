@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "OxSearch",
+    "description": "Instantly explore the Oxford English Dictionary with a simple right-click. Discover definitions on the fly while browsing!",
+    "version": "2.0",
+    "icons": {
+    "128": "icon16.png",
+    "48": "icon32.png"
+    },
+    "background": {
+    "service_worker": "background.js"
+    },
+    "permissions": [  
+    "contextMenus"
+    ]
+}  
